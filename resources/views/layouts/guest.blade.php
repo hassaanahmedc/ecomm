@@ -21,12 +21,19 @@
                 @include('layouts.navigation')
             </div>
 
-            <div id="hero_img_container" class="object-contain">
-                <x-hero-section/>
-            </div>
+            @if (isset($hero_img))
+                <div id="hero_img_container" class="object-contain">
+                    {{ $hero_img }}
+                </div>
+            @endif
         </header>
     </head>
     <body class="font-sans bg-[#eff0f5]">
         {{ $slot }}
     </body>
+
+    <footer class="w-full h-60 bg-black mt-8 flex items-center justify-center">
+        <span class="text-white font-extrabold text-xl">© 2023 eComSite. All
+            rights reserved.</span>
+    </footer>
 </html>
