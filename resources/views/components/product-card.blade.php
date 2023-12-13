@@ -4,7 +4,7 @@
         alt=""
         class="w-full h-[300px] object-cover">
     <div class="p-4">
-        <a href=''
+        <a href='./product.blade.php'
             class="text-2xl my-1">PlayStation 5</a>
         <p class="item_price">Rs 100,000</p>
         <i class="fa-solid fa-star"></i>
