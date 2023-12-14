@@ -19,8 +19,7 @@ Route::get('/', function () {
 });
 
 Route::get('/product', function () {
-    return view('product');
-});
+    return view('product');})->name('product');
 
 Route::get('/dashboard', function () {
     return view('dashboard');
