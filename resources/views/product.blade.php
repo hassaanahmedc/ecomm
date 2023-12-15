@@ -1,5 +1,5 @@
 <x-guest-layout>
-    <div class="max-w-7xl w-full mx-auto my-8">
+    <div class="max-w-7xl w-full mx-auto my-8 min-h-[calc(100vh-200px)]">
         <section class="flex bg-white my-8">
             {{-- Product Image and buttons --}}
             <div class="w-2/5 p-4 flex flex-col gap-8">
